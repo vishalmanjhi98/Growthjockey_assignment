@@ -1,0 +1,124 @@
+.App {
+  margin-left: 27%;
+  font-family: Arial;
+  width: 530px;
+  height: 500px;
+  background-color: #24232b;
+
+  border: 45px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(150, 226, 150),
+    rgb(147, 247, 117)
+  );
+}
+
+.code {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.code-label {
+  font-weight: bold;
+}
+
+.copy-button {
+  cursor: pointer;
+  color: #707070;
+  margin-left: 10px;
+}
+.copy-button:hover {
+  color: darkcyan;
+}
+
+.code-value {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  align-items: "center";
+  justify-content: center;
+  text-justify: center;
+  text-align: center;
+}
+
+.options {
+  font-size: 16px;
+  font-weight: 700;
+  color: #707070;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-top: 32px;
+  gap: 12px;
+}
+
+.option-label {
+  font-weight: bold;
+}
+
+.strength {
+  /* font-weight: bold;
+  margin-top: 10px; */
+
+  padding: 20px 165px 20px 165px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+  font-size: 16px;
+  background-color: #16161c;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-button {
+  padding: 20px 190px 20px 190px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: hsl(180, 54%, 35%);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+  background-color: #054b4b;
+}
+.arrange {
+  display: inline-block;
+  justify-content: left;
+  align-items: left;
+}
+#myinput {
+  /* padding-left: 10%; */
+  background: linear-gradient(
+    to right,
+    #82cfd0 0%,
+    #82cfd0 50%,
+    #fff 50%,
+    #fff 100%
+  );
+  border: solid 1px #82cfd0;
+  border-radius: 8px;
+  height: 7px;
+  width: 460px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+input[type="checkbox"] {
+  accent-color: #054b4b;
+  background-color: yellow;
+}
